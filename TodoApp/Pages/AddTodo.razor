@@ -1,0 +1,23 @@
+<div class="form-group">
+    <label for="Title">Title</label>
+    <input type="title" class="form-control" @bind-value="@newTodo.Title" id="Title" placeholder="title">
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <input type="description" class="form-control" @bind-value="@newTodo.Description" id="description" placeholder="description">
+  </div>
+  <button type="button" class="btn btn-success button" @onclick="AddNewTodo" >submit</button>
+
+  @code{
+    public Todo newTodo = new Todo(){
+        TodoId = Guid.NewGuid()
+    };
+
+    [Parameter]
+    public EventCallback<Todo> AddTodos {get; set;}
+
+    public async Task AddNewTodo(){
+        await AddTodos.InvokeAsync(newTodo);
+        newTodo = new Todo();
+    }
+  }

@@ -1,0 +1,84 @@
+@page "/"
+
+<div class="row">
+    <div class=" col-4">
+        <AddTodo AddTodos="AddingTodo"/>
+    </div>
+    <div class="todos col-7">
+        @if(todos.Count == 0){
+            <p>No todo available right  now, please add more</p>
+        }else{
+            @foreach(var todo in todos){
+                <div class="todo">
+                   <h2>Title: @todo.Title</h2> 
+                    <p>Description: @todo.Description</p>
+                    <div class="butons">
+                        <button type="button" @onclick ="()=>deleteTodo(todo.TodoId)" class="btn btn-danger button">Delete</button>
+                        <button type="button" @onclick="() => EditTodo(todo.TodoId)" class="btn btn-success button">Update</button>
+                    </div>
+                </div>
+                @if (editingTodoId == todo.TodoId){
+                <div>
+                    <h3>Edit Todo</h3>
+                    <input type="text" @bind="editedTitle" />
+                    <input type="text" @bind="editedDescription"></input>
+                    <button @onclick="SaveEditedTodo" class="btn btn-success">Save</button>
+                </div>
+            }
+            }
+        }
+            
+
+    </div>
+</div>
+
+@code{
+    private List<Todo> todos = new List<Todo>(){
+        new Todo(){
+            TodoId = Guid.NewGuid(),
+            Title = "dishes",
+            Description = "hello dishes"
+        },
+            new Todo(){
+            TodoId = Guid.NewGuid(),
+            Title = "running",
+            Description = "runaways"
+        }
+        };
+        public void AddingTodo(Todo todo){
+            this.todos.Add(todo);
+            @* localStorage.SetItem("todos", JsonSerializer.Serialize(todos)); *@
+        }
+        public void deleteTodo(Guid id){
+            try{
+                var todo = this.todos.Find(x=>x.TodoId == id);
+                this.todos.Remove(todo);
+            }catch{
+                
+            }
+        }
+
+
+    private Guid editingTodoId = Guid.Empty;
+    private string editedTitle = "";
+    private string editedDescription = "";
+        private void EditTodo(Guid id)
+    {
+        var todo = todos.Find(x => x.TodoId == id);
+        if (todo != null)
+        {
+            editingTodoId = id;
+            editedTitle = todo.Title;
+            editedDescription = todo.Description;
+        }
+    }
+        private void SaveEditedTodo(){
+        var todo = todos.Find(x => x.TodoId == editingTodoId);
+        if (todo != null)
+        {
+            todo.Title = editedTitle;
+            todo.Description = editedDescription;
+            editingTodoId = Guid.Empty;
+        }
+    }
+}

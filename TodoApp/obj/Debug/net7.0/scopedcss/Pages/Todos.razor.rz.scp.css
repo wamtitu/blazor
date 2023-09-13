@@ -1,0 +1,21 @@
+.row[b-p74ont06pj]{
+  margin-left: 20px;
+}
+.todos[b-p74ont06pj]{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    border-radius: 7px;   
+    margin-top: 5px;
+    /* background: rgb(240, 243, 243);  */
+    /* height: 15vh; */
+}
+.todo[b-p74ont06pj]{
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+.butons[b-p74ont06pj]{
+    display: flex;
+    gap: 30px;
+    margin-left: 40%;
+}
