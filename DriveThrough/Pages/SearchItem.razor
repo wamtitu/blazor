@@ -1,0 +1,49 @@
+@inject HttpClient http
+@page "/search/{SearchTerm}"
+@page "/search/{SearchTerm}/Price/{MaxPrice:int}"
+
+@if(searchedCars.Count == 0){
+    <h3>No cars Found for @SearchTerm</h3>
+}else{
+    <h2>results for @SearchTerm</h2>
+    <CarFilters SearchTerm="@SearchTerm" />
+    <div class="row">
+        @foreach(var car in searchedCars){
+            <div class="col-4">
+                    <img src=@car.Image class="card-img-top" alt=@car.Name>
+                    <div>
+                        <h3>@car.Name</h3>
+                        <h4>@car.Price</h4>
+                        <p>@car.Color</p>
+                    </div>
+
+            </div>
+        }
+    </div>
+}
+
+@code{
+    [Parameter]
+    public string SearchTerm {get; set;}
+
+     [Parameter]
+    public int? MaxPrice { get; set; }
+
+    private List<CarDTO> filteredCars = new List<CarDTO>();
+    private List<CarDTO> searchedCars = new List<CarDTO>();
+
+    protected override async Task OnInitializedAsync(){
+        var cars = await http.GetFromJsonAsync<List<CarDTO>>("sample-data/mycars.json");
+        filteredCars = cars.Where(c=>c.Name.ToLower().Contains(SearchTerm.ToLower()) || c.Description.ToLower().Contains(SearchTerm.ToLower())).ToList();
+        searchedCars= filteredCars;
+    }
+
+    protected override void OnParametersSet(){
+        if(filteredCars.Any() && MaxPrice > 0){
+            searchedCars = filteredCars.Where(x => x.Price <= MaxPrice).ToList();
+        }else if( searchedCars.Any() && MaxPrice is null)
+        {
+            searchedCars = filteredCars;
+        }
+    }
+}

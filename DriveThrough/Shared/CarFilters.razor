@@ -1,0 +1,23 @@
+@inject NavigationManager navigation
+<div class="filters">
+    <label for="Price">Max Price</label>
+    <input id="MaxPrice"
+           type="number"
+           class="form-control"
+           @bind="MaxPrice"
+           />
+    <button class="btn btn-outline-primary" @onclick="filtercars">
+        Filter
+    </button>
+
+</div>
+@code{
+    public int MaxPrice = 0;
+
+    [Parameter]
+    public string SearchTerm {set; get;}
+
+    public void filtercars(){
+        navigation.NavigateTo($"/search/{SearchTerm}/Price/{MaxPrice}");
+    }
+}

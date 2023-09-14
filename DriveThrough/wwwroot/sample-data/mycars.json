@@ -1,0 +1,141 @@
+[
+
+    {
+      "Id": 1,
+      "Name": "Mercedes Benz",
+      "Description": "Best Mercedes Benz GLE",
+      "Image": "https://cdn.pixabay.com/photo/2015/11/10/05/00/mercedes-benz-1036358_640.jpg",
+      "Price": 30000,
+      "Color": "White"
+    },
+  
+    {
+      "Id": 2,
+      "Name": "Audi",
+      "Description": "Best RS7 Audi",
+      "Image": "https://cdn.pixabay.com/photo/2017/12/04/00/06/audi-rs7-2996090_1280.jpg",
+      "Price": 250000,
+      "Color": "Black"
+    },
+  
+    {
+      "Id": 3,
+      "Name": "Jeep",
+      "Description": "Wrangler Jeep",
+      "Image": "https://cdn.pixabay.com/photo/2022/02/20/04/42/jeep-wrangler-7023738_640.jpg",
+      "Price": 40000,
+      "Color": "Red"
+    },
+  
+    {
+      "Id": 4,
+      "Name": "BMW",
+      "Description": "BMW M4",
+      "Image": "https://cdn.pixabay.com/photo/2020/12/21/09/59/bmw-m4-5849405_640.jpg",
+      "Price": 35000,
+      "Color": "Black"
+    },
+  
+    {
+      "Id": 5,
+      "Name": "VW",
+      "Description": "VW Van",
+      "Image": "https://cdn.pixabay.com/photo/2019/10/08/18/03/car-4535650_640.jpg",
+      "Price": 45000,
+      "Color": "White"
+    },
+  
+    {
+      "Id": 6,
+      "Name": "Lamborghini",
+      "Description": "Countach",
+      "Image": "https://cdn.pixabay.com/photo/2018/05/03/21/58/lamborghini-3372628_640.jpg",
+      "Price": 55000,
+      "Color": "White"
+    },
+  
+    {
+      "Id": 7,
+      "Name": "Maserati",
+      "Description": "Granturismo",
+      "Image": "https://cdn.pixabay.com/photo/2017/11/24/20/47/maserati-granturismo-2975681_640.jpg",
+      "Price": 55000,
+      "Color": "Black"
+    },
+  
+    {
+      "Id": 8,
+      "Name": "Tesla",
+      "Description": "Just Tesla",
+      "Image": "https://cdn.pixabay.com/photo/2021/01/21/11/09/tesla-5937063_640.jpg",
+      "Price": 56000,
+      "Color": "White"
+    },
+  
+    {
+      "Id": 9,
+      "Name": "Porsche",
+      "Description": "GT3",
+      "Image": "https://cdn.pixabay.com/photo/2020/01/26/18/52/porsche-4795520_640.jpg",
+      "Price": 53000,
+      "Color": "White"
+    },
+  
+    {
+      "Id": 10,
+      "Name": "Range Rover",
+      "Description": "Just Range Rover",
+      "Image": "https://cdn.pixabay.com/photo/2017/01/28/16/03/range-rover-2015643_640.jpg",
+      "Price": 60000,
+      "Color": "White"
+    },
+    {
+      "Id": 11,
+      "Name": "Dodge",
+      "Description": "Just Dodge",
+      "Image": "https://cdn.pixabay.com/photo/2019/12/01/21/34/dodge-4666515_640.jpg",
+      "Price": 60000,
+      "Color": "Neon"
+    },
+    {
+      "Id": 11,
+      "Name": "Mustang ",
+      "Description": "Ford Mustang",
+      "Image": "https://cdn.pixabay.com/photo/2017/05/23/20/07/mustang-2338364_640.jpg",
+      "Price": 60000,
+      "Color": "Red"
+    },
+    {
+      "Id": 12,
+      "Name": "Mercedes Benz",
+      "Description": "Maybach",
+      "Image": "https://cdn.pixabay.com/photo/2022/01/16/16/17/mercedes-amg-gt-4-door-coupe-6942525_1280.jpg",
+      "Price": 70000,
+      "Color": "White"
+    },
+    {
+      "Id": 14,
+      "Name": "Mercedes Benz",
+      "Description": "AMG",
+      "Image": "https://cdn.pixabay.com/photo/2020/02/19/07/42/taipei-4861601_640.jpg",
+      "Price": 44000,
+      "Color": "Black"
+    },
+    {
+      "Id": 13,
+      "Name": "Mercedes Benz",
+      "Description": "G-Wagon",
+      "Image": "https://cdn.pixabay.com/photo/2020/06/05/12/42/mercedes-benz-5263081_640.jpg",
+      "Price": 59000,
+      "Color": "Black"
+    },
+    {
+      "Id": 15,
+      "Name": "Porsche",
+      "Description": "Cayman",
+      "Image": "https://cdn.pixabay.com/photo/2020/06/22/19/30/automobile-5330343_640.jpg",
+      "Price": 59000,
+      "Color": "Black"
+    }
+  
+  ]

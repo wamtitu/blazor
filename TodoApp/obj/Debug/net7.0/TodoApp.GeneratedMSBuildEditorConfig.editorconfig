@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = TodoApp
 build_property.RootNamespace = TodoApp
-build_property.ProjectDir = C:\Users\HP\desktop\Blazor\TodoApp\
+build_property.ProjectDir = c:\Users\HP\desktop\Blazor\TodoApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\desktop\Blazor\TodoApp
+build_property.MSBuildProjectDirectory = c:\Users\HP\desktop\Blazor\TodoApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/desktop/Blazor/TodoApp/App.razor]
+[c:/Users/HP/desktop/Blazor/TodoApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/Blazor/TodoApp/Pages/AddTodo.razor]
+[c:/Users/HP/desktop/Blazor/TodoApp/Pages/AddTodo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/Blazor/TodoApp/Shared/NavMenu.razor]
+[c:/Users/HP/desktop/Blazor/TodoApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/Blazor/TodoApp/_Imports.razor]
+[c:/Users/HP/desktop/Blazor/TodoApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/Blazor/TodoApp/Pages/Todos.razor]
+[c:/Users/HP/desktop/Blazor/TodoApp/Pages/Todos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-p74ont06pj
 
-[C:/Users/HP/desktop/Blazor/TodoApp/Shared/MainLayout.razor]
+[c:/Users/HP/desktop/Blazor/TodoApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6179ur2i4l

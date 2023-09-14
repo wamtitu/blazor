@@ -1,0 +1,14 @@
+@inject NavigationManager navigation
+<div>
+    <h2>Search for a car</h2>
+    <input type="text" @bind="searchterm" @bind:event="oninput" @onkeydown="SearchForCar">
+</div>
+
+@code{
+    public string searchterm= "";
+
+    private void SearchForCar(KeyboardEventArgs args){
+        if (args.Key != "Enter") return;
+        navigation.NavigateTo($"/search/{searchterm}");
+    }
+}

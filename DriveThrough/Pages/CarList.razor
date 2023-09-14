@@ -1,0 +1,33 @@
+@inject HttpClient http
+
+@page "/"
+<div >
+    <h2>Viewing cars</h2>
+    <div class="row">
+        @if(cars.Count==0){
+            <p>hello no cars to display</p>
+        }else{
+            <SearchInput/>
+            foreach(var car in cars){
+                <div class="col-4">
+                    <img src=@car.Image class="card-img-top" alt=@car.Name>
+                    <div>
+                        <h3>@car.Name</h3>
+                        <h4>@car.Price</h4>
+                        <p>@car.Color</p>
+                    </div>
+
+                </div>
+            }
+           
+        }
+    </div>
+</div>
+
+@code{
+    private List<CarDTO> cars =  new List<CarDTO>(); 
+    
+    protected override async Task OnInitializedAsync(){
+        cars = await http.GetFromJsonAsync<List<CarDTO>>("sample-data/mycars.json");
+    }
+}
