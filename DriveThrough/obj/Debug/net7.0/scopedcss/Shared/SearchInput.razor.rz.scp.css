@@ -1,0 +1,10 @@
+.search1[b-fpzfemzcib]{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    margin-bottom: 20px;
+}
+.search1 input[b-fpzfemzcib]{
+    border-radius: 10px;
+    border: 1px solid rgb(27, 27, 214);
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ceGJvIAD3n5/kdTSIwZkRdrgQk+n7rJMtf8J/zrLIlnTpBhBrqHsr0dJn35ci0rvq85JMJFeR34rIyv6y0+GfA==",
+  "dgSpecHash": "JPMfOMZWtAXWZ7v5s4GEHAYV04osgUb7gTTkJJ3X+yyOFM4VyZniIan+ZBxvilEm6QTOFCtf3x5+iJvl+XGr5Q==",
   "success": true,
   "projectFilePath": "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\TodoApp.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.10.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.11.nupkg.sha512"
   ],
   "logs": []
 }

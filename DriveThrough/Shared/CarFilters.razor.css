@@ -1,0 +1,10 @@
+.filters{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.filters input{
+    width: 10%;
+}

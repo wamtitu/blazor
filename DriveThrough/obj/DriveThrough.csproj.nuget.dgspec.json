@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj": {}
+    "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj": {
+    "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj",
         "projectName": "DriveThrough",
-        "projectPath": "C:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj",
+        "projectPath": "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\obj\\",
+        "outputPath": "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,7 +62,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.10, 7.0.10]"
+              "version": "[7.0.11, 7.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

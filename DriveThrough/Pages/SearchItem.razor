@@ -5,11 +5,11 @@
 @if(searchedCars.Count == 0){
     <h3>No cars Found for @SearchTerm</h3>
 }else{
-    <h2>results for @SearchTerm</h2>
     <CarFilters SearchTerm="@SearchTerm" />
-    <div class="row">
+    <div class="row filters">
+        <h2>results for @SearchTerm</h2>
         @foreach(var car in searchedCars){
-            <div class="col-4">
+            <div class="col-3">
                     <img src=@car.Image class="card-img-top" alt=@car.Name>
                     <div>
                         <h3>@car.Name</h3>

@@ -1,3 +1,22 @@
+/* /Pages/CarList.razor.rz.scp.css */
+.row[b-zpwhlaxbss]{
+    margin:0 10% 0 10%;
+}
+/* /Pages/SearchItem.razor.rz.scp.css */
+.row[b-ar0rplnsiu]{
+    margin:0 10% 0 10%;
+}
+/* /Shared/CarFilters.razor.rz.scp.css */
+.filters[b-etzro5ppa3]{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.filters input[b-etzro5ppa3]{
+    width: 10%;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 /* .page {
     position: relative;
@@ -81,3 +100,14 @@ main {
     }
 } */
 /* /Shared/NavMenu.razor.rz.scp.css */
+/* /Shared/SearchInput.razor.rz.scp.css */
+.search1[b-fpzfemzcib]{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    margin-bottom: 20px;
+}
+.search1 input[b-fpzfemzcib]{
+    border-radius: 10px;
+    border: 1px solid rgb(27, 27, 214);
+}

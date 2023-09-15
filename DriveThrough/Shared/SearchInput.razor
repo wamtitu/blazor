@@ -1,7 +1,7 @@
 @inject NavigationManager navigation
-<div>
-    <h2>Search for a car</h2>
-    <input type="text" @bind="searchterm" @bind:event="oninput" @onkeydown="SearchForCar">
+<div class="search1">
+    <h2 class="">Search for a car: </h2>
+    <input type="text" @bind="searchterm" @bind:event="oninput" @onkeydown="SearchForCar" style="width: 30%;" class="col-4">
 </div>
 
 @code{

@@ -1,0 +1,56 @@
+@page "/"
+
+<div class="row">
+    <div class="col-4">
+        <AddForm AddBook ="AddingBook"/>
+    </div>
+    <div class="col-8">
+        @if(books.Count ==null){
+        <h3>No books found add some more</h3>
+        Console.WriteLine(books.Count);
+    }else{
+        Console.WriteLine(books.Count);
+        <div class="row">
+            @foreach(var book in books){
+            <BookView books="@book" DeleteId = "DeleteBook"/>
+        }
+        </div>
+        
+    }
+    </div>
+    
+</div>
+
+@code{
+    public List<Book> books = new List<Book>(){
+        new Book{
+            BookId = Guid.NewGuid(),
+            Title = "The a hundred",
+            description = "they are just a hundred people who refuse to die",
+            Authors = "james"
+        },
+        new Book{
+            BookId = Guid.NewGuid(),
+            Title = "The a hundred",
+            description = "they are just a hundred people who refuse to die",
+            Authors = "jane"
+        },
+        };
+
+     public void AddingBook(Book book){
+            this.books.Add(book);
+        }
+     public void DeleteBook (Guid id)
+    {
+        try
+        {
+            var bookToDelete = this.books.Find(x => x.BookId == id);
+
+            this.books.Remove(bookToDelete);
+        }catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+    }
+}
