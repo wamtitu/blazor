@@ -13,7 +13,7 @@
         <div class="row">
             
             @foreach(var book in books){
-            <BookView books="@book" DeleteId = "DeleteBook"/>
+            <BookView books="@book" DeleteId="DeleteBook" UpdateId="UpdateBook" />
         }
         </div>
         
@@ -57,5 +57,16 @@
             Console.WriteLine(ex.Message);
         }
 
+    }
+    private async Task UpdateBook(Book updatedBook)
+    {
+        // Implement the update logic for the updated book
+        var existingBook = books.FirstOrDefault(book => book.BookId == updatedBook.BookId);
+        if (existingBook != null)
+        {
+            existingBook.Title = updatedBook.Title;
+            existingBook.description = updatedBook.description;
+            
+        }
     }
 }

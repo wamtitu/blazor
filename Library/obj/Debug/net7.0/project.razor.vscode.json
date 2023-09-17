@@ -113,7 +113,7 @@
         }
       },
       {
-        "HashCode": 510538444,
+        "HashCode": -1594842284,
         "Kind": "Components.Component",
         "Name": "Library.Pages.BookView",
         "AssemblyName": "Library",
@@ -146,6 +146,17 @@
               "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Guid>",
               "Components.EventCallback": "True"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UpdateId",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Library.Models.Book>",
+            "DisplayName": "Microsoft.AspNetCore.Components.EventCallback<Library.Models.Book> Library.Pages.BookView.UpdateId",
+            "Metadata": {
+              "Common.PropertyName": "UpdateId",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Library.Models.Book>",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
@@ -156,7 +167,7 @@
         }
       },
       {
-        "HashCode": -1564800800,
+        "HashCode": 118311493,
         "Kind": "Components.Component",
         "Name": "Library.Pages.BookView",
         "AssemblyName": "Library",
@@ -187,6 +198,17 @@
             "Metadata": {
               "Common.PropertyName": "DeleteId",
               "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Guid>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UpdateId",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Library.Models.Book>",
+            "DisplayName": "Microsoft.AspNetCore.Components.EventCallback<Library.Models.Book> Library.Pages.BookView.UpdateId",
+            "Metadata": {
+              "Common.PropertyName": "UpdateId",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Library.Models.Book>",
               "Components.EventCallback": "True"
             }
           }

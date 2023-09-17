@@ -25,10 +25,35 @@
       <td>@books.description</td>
       <td>@string.Join(", ", books.Authors)</td>
       <td>
-        <button @onclick="Edit" class="mt-4  btn btn-primary">Edit</button>
+        <button @onclick="EditBook" class="mt-4  btn btn-primary">Edit</button>
         <button @onclick="DeleteBook" class="mt-4  btn btn-danger">Delete</button>
       </td>
     </tr>
+      @if (editingBookId == books.BookId)
+        {
+            <tr>
+                <td><input type="text" @bind="editedTitle" /></td>
+                <td><textarea type="text" @bind="editedDescription" /></td>
+                <td>
+                  <div class="form-group">
+                    <label for="Authors">Authors</label>
+                    <ul>
+                        @for (var i = 0; i < books.Authors.Count; i++)
+                        {
+                            <li>
+                                <input type="text" class="form-control" @bind="books.Authors[i]" />
+                            </li>
+                        }
+                    </ul>
+                    <input type="text" class="form-control" @bind="newAuthorName" placeholder="New Author" />
+                    <button @onclick="AddAuthor">Add Author</button>
+                </div>
+                </td>
+                <td>
+                    <button @onclick="SaveEditedBook" class="btn btn-success">Save</button>
+                </td>
+            </tr>
+        }
     </tbody>
   </table>
     
@@ -46,8 +71,36 @@
     [Parameter]
     public EventCallback<Guid> DeleteId { get; set; }
 
+     [Parameter]
+    public EventCallback<Book> UpdateId { get; set; }
+
+    private Guid editingBookId = Guid.Empty;
+    private string editedTitle = "";
+    private string editedDescription = "";
     public async Task DeleteBook()
     {
         await DeleteId.InvokeAsync(books.BookId);
+    }
+
+    public string newAuthorName {get; set;}
+    private void AddAuthor()
+    {
+        books.Authors.Add(newAuthorName);
+        
+        newAuthorName = "";
+    }
+    public void EditBook(){
+        editingBookId = books.BookId;
+        editedTitle = books.Title;
+        editedDescription = books.description;
+    }
+
+    private async Task SaveEditedBook()
+    {
+        books.Title = editedTitle;
+        books.description = editedDescription;
+
+        await UpdateId.InvokeAsync(books);
+        editingBookId = Guid.Empty;
     }
 }
