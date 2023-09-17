@@ -11,6 +11,7 @@
     }else{
         Console.WriteLine(books.Count);
         <div class="row">
+            
             @foreach(var book in books){
             <BookView books="@book" DeleteId = "DeleteBook"/>
         }

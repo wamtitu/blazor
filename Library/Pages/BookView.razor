@@ -1,5 +1,5 @@
 
-<div class="card ">
+@* <div class="card">
   @if(books!=null){
           <div class="col-6 mt-15">
             <h3>Title: @books.Title</h3>
@@ -9,8 +9,30 @@
             <button @onclick="Edit" class="mt-4  btn btn-primary">Edit</button>
             <button @onclick="DeleteBook" class="mt-4  btn btn-danger">Delete</button>
         </div>
-  }
-</div>
+  } *@
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">description</th>
+      <th scope="col">Authors</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>@books.Title</td>
+      <td>@books.description</td>
+      <td>@string.Join(", ", books.Authors)</td>
+      <td>
+        <button @onclick="Edit" class="mt-4  btn btn-primary">Edit</button>
+        <button @onclick="DeleteBook" class="mt-4  btn btn-danger">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+    
+@* </div> *@
 
 
 @code{
