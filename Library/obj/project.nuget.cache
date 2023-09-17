@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zobu0EGqCybTC5NhpCnjF43oTeEjCxvo/zZzdUv58QwhUm80DRRIBRKfdaJg0FT1bLn+XXAvWy0OoMApeIdpAw==",
+  "dgSpecHash": "WRByT42Fpf+MDz4slHNplE7ZNRSp+HkHZpnD9zYOhGbXyf4HjGcQadC1H7gQ15NRPqlSjGhDrMpm6e4X0JXXxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\desktop\\Blazor\\Library\\Library.csproj",
+  "projectFilePath": "C:\\Users\\HP\\desktop\\blazor\\Library\\Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.11\\microsoft.aspnetcore.components.7.0.11.nupkg.sha512",

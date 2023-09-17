@@ -806,8 +806,6 @@ C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\xrBRMP29.gz
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\rcZoC1Kb.gz
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\v8vJc9KF.gz
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\i3RUaLJG.gz
-C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\8B530qZd.gz
-C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\o6LJrH4G.gz
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\build-gz\QFOUHyUb.gz
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\blazor.boot.json
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\staticwebassets\msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props
@@ -826,3 +824,5 @@ C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\Library.dll
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\refint\Library.dll
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\Library.pdb
 C:\Users\HP\desktop\Blazor\Library\obj\Debug\net7.0\ref\Library.dll
+C:\Users\HP\desktop\blazor\Library\obj\Debug\net7.0\build-gz\acFPbnn3.gz
+C:\Users\HP\desktop\blazor\Library\obj\Debug\net7.0\build-gz\5LEvz7jC.gz

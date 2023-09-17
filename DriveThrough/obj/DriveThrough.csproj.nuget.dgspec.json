@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj": {}
+    "c:\\Users\\HP\\desktop\\blazor\\DriveThrough\\DriveThrough.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj": {
+    "c:\\Users\\HP\\desktop\\blazor\\DriveThrough\\DriveThrough.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\desktop\\blazor\\DriveThrough\\DriveThrough.csproj",
         "projectName": "DriveThrough",
-        "projectPath": "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\DriveThrough.csproj",
+        "projectPath": "c:\\Users\\HP\\desktop\\blazor\\DriveThrough\\DriveThrough.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\desktop\\Blazor\\DriveThrough\\obj\\",
+        "outputPath": "c:\\Users\\HP\\desktop\\blazor\\DriveThrough\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

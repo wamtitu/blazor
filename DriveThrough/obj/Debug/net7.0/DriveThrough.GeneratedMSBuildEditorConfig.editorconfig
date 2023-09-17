@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = DriveThrough
 build_property.RootNamespace = DriveThrough
-build_property.ProjectDir = c:\Users\HP\desktop\Blazor\DriveThrough\
+build_property.ProjectDir = c:\Users\HP\desktop\blazor\DriveThrough\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\HP\desktop\Blazor\DriveThrough
+build_property.MSBuildProjectDirectory = c:\Users\HP\desktop\blazor\DriveThrough
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/App.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Shared/SurveyPrompt.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/_Imports.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Pages/CarList.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Pages/CarList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zpwhlaxbss
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Pages/SearchItem.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Pages/SearchItem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ar0rplnsiu
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Shared/CarFilters.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Shared/CarFilters.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhckZpbHRlcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-etzro5ppa3
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Shared/MainLayout.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hjyeiars4h
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Shared/NavMenu.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8f62cz8xl4
 
-[c:/Users/HP/desktop/Blazor/DriveThrough/Shared/SearchInput.razor]
+[c:/Users/HP/desktop/blazor/DriveThrough/Shared/SearchInput.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaElucHV0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-fpzfemzcib

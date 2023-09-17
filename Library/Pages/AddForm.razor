@@ -9,36 +9,36 @@
   
   <div class="form-group">
     <label for="Author">Author</label>
-    <select  class="form-control" @bind="@newBook.Authors">
-        <option selected>Select The Author</option>
-        @foreach(var Author in Authors)
-        {
-            <option value="@Author">@Author</option>
-        }
-    </select>
-
+    <input type="text" class="form-control" @bind="@authorInput" id="Author" placeholder="Author">
 </div>
+<button type="button" class="btn btn-primary" @onclick="AddAuthor">Add Author</button>
+
   <button type="button" class="btn btn-success button" @onclick="AddNewBook" >submit</button>
 
 
 @code{
     public Book newBook = new Book(){
-        BookId = Guid.NewGuid()
+        BookId = Guid.NewGuid(),
+        Authors = new List<string>()
     };
-
-     private List<string> Authors = new List<string>
+    public string authorInput {get; set;}
+    private void AddAuthor()
     {
-        "john grisham",
-        "Nora roberts",
-        "Sidney Sheldon",
-        "Dad Jokes"
-    };
+    if (!string.IsNullOrWhiteSpace(authorInput))
+    {
+        newBook.Authors.Add(authorInput);
+        authorInput = string.Empty;
+    }
+      }
+
+    
 
      [Parameter]
     public EventCallback<Book> AddBook {get; set;}
 
     public async Task AddNewBook(){
         await AddBook.InvokeAsync(newBook);
+
         newBook = new Book();
     }
 

@@ -4,7 +4,7 @@
           <div class="col-6 mt-15">
             <h3>Title: @books.Title</h3>
             <p>Description: @books.description</p>
-             <p>Authors: @books.Authors</p>
+            <p><strong>Authors:</strong> @string.Join(", ", books.Authors)</p>
 
             <button @onclick="Edit" class="mt-4  btn btn-primary">Edit</button>
             <button @onclick="DeleteBook" class="mt-4  btn btn-danger">Delete</button>
