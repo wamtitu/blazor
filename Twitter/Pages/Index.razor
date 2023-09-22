@@ -1,0 +1,31 @@
+﻿@page "/"
+@inject ICommentInterface commentService
+@inject IPostInterface postService
+
+
+<div>
+    @foreach(var post in posts){
+        <div>
+            <p>@post.title</p>
+            <p>@post.body</p>
+        </div>
+    }
+    @* @foreach(var comment in comments){
+        <div>
+            <p>@comment.email</p>
+            <p>@comment.body</p>
+            <p>@comment.name</p>
+        </div>
+    } *@
+</div>
+
+
+@code{
+    private List<Comment> comments = new List<Comment>();
+    private List<Post> posts = new List<Post>();
+
+    protected override async Task OnInitializedAsync (){
+        @* comments =await commentService.GetCommentsAsync(); *@
+        posts =await postService.GetPostAsync();
+    }
+}
