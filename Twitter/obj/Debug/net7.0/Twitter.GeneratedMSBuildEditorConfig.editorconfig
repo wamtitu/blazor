@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Twitter
 build_property.RootNamespace = Twitter
-build_property.ProjectDir = C:\Users\HP\desktop\blazor\Twitter\
+build_property.ProjectDir = c:\Users\HP\desktop\blazor\Twitter\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\desktop\blazor\Twitter
+build_property.MSBuildProjectDirectory = c:\Users\HP\desktop\blazor\Twitter
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/desktop/blazor/Twitter/App.razor]
+[c:/Users/HP/desktop/blazor/Twitter/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/blazor/Twitter/Pages/Index.razor]
+[c:/Users/HP/desktop/blazor/Twitter/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/blazor/Twitter/Shared/SurveyPrompt.razor]
+[c:/Users/HP/desktop/blazor/Twitter/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/blazor/Twitter/_Imports.razor]
+[c:/Users/HP/desktop/blazor/Twitter/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/desktop/blazor/Twitter/Shared/MainLayout.razor]
+[c:/Users/HP/desktop/blazor/Twitter/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-q7fwamyv06
 
-[C:/Users/HP/desktop/blazor/Twitter/Shared/NavMenu.razor]
+[c:/Users/HP/desktop/blazor/Twitter/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-z0jh6n752s
