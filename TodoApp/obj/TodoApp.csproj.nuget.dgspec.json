@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\desktop\\blazor\\TodoApp\\TodoApp.csproj": {}
+    "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\TodoApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\desktop\\blazor\\TodoApp\\TodoApp.csproj": {
+    "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\desktop\\blazor\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "c:\\Users\\HP\\desktop\\blazor\\TodoApp\\TodoApp.csproj",
+        "projectPath": "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\TodoApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\desktop\\blazor\\TodoApp\\obj\\",
+        "outputPath": "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

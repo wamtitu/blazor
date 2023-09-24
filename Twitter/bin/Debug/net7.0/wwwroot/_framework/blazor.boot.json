@@ -199,13 +199,13 @@
       "mscorlib.dll": "sha256-X+o60j6cZnlI2vFFjdH81yYTAxx13\/wqnNSWTKbDsyw=",
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
-      "Twitter.dll": "sha256-strtetV\/vsjbWIChx9AXqR82H96GNCw\/FuGO0lWtgdw="
+      "Twitter.dll": "sha256-3\/QgEgycn6Vh+4lLD2xGhgYoTAJC9lQkbOsXsu7LTMA="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Twitter.pdb": "sha256-A3dcv8YTWvFbjzZJd6Vm31J9dyJRR4Nlx7I1LAeD3tY="
+      "Twitter.pdb": "sha256-0WdoAJ93cxZeCHfxK1e4wR87TKh3mzbLCyh9CkPvPHk="
     },
     "runtime": {
       "dotnet.7.0.11.izroqrze0n.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\desktop\\blazor\\Twitter\\Twitter.csproj": {}
+    "C:\\Users\\HP\\desktop\\Blazor\\Twitter\\Twitter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\desktop\\blazor\\Twitter\\Twitter.csproj": {
+    "C:\\Users\\HP\\desktop\\Blazor\\Twitter\\Twitter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\desktop\\blazor\\Twitter\\Twitter.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\desktop\\Blazor\\Twitter\\Twitter.csproj",
         "projectName": "Twitter",
-        "projectPath": "C:\\Users\\HP\\desktop\\blazor\\Twitter\\Twitter.csproj",
+        "projectPath": "C:\\Users\\HP\\desktop\\Blazor\\Twitter\\Twitter.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\desktop\\blazor\\Twitter\\obj\\",
+        "outputPath": "C:\\Users\\HP\\desktop\\Blazor\\Twitter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Library
 build_property.RootNamespace = Library
-build_property.ProjectDir = c:\Users\HP\desktop\blazor\Library\
+build_property.ProjectDir = c:\Users\HP\desktop\Blazor\Library\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\HP\desktop\blazor\Library
+build_property.MSBuildProjectDirectory = c:\Users\HP\desktop\Blazor\Library
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/HP/desktop/blazor/Library/App.razor]
+[c:/Users/HP/desktop/Blazor/Library/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/blazor/Library/Pages/AddForm.razor]
+[c:/Users/HP/desktop/Blazor/Library/Pages/AddForm.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/blazor/Library/Pages/BookView.razor]
+[c:/Users/HP/desktop/Blazor/Library/Pages/BookView.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1ZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/blazor/Library/Pages/Home.razor]
+[c:/Users/HP/desktop/Blazor/Library/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/blazor/Library/Shared/SurveyPrompt.razor]
+[c:/Users/HP/desktop/Blazor/Library/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/blazor/Library/_Imports.razor]
+[c:/Users/HP/desktop/Blazor/Library/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/HP/desktop/blazor/Library/Shared/MainLayout.razor]
+[c:/Users/HP/desktop/Blazor/Library/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-83zf23ogl0
 
-[c:/Users/HP/desktop/blazor/Library/Shared/NavMenu.razor]
+[c:/Users/HP/desktop/Blazor/Library/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zzry4awsgr

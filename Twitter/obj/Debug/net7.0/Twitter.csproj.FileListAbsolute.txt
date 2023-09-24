@@ -810,8 +810,6 @@ C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\xrBRMP29.gz
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\rcZoC1Kb.gz
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\v8vJc9KF.gz
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\i3RUaLJG.gz
-C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\csUtGjbU.gz
-C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\bByqjV+9.gz
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\build-gz\QFOUHyUb.gz
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\blazor.boot.json
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\staticwebassets\msbuild.Twitter.Microsoft.AspNetCore.StaticWebAssets.props
@@ -830,3 +828,5 @@ C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\Twitter.dll
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\refint\Twitter.dll
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\Twitter.pdb
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\ref\Twitter.dll
+C:\Users\HP\desktop\Blazor\Twitter\obj\Debug\net7.0\build-gz\8HjrHkyZ.gz
+C:\Users\HP\desktop\Blazor\Twitter\obj\Debug\net7.0\build-gz\veW7iNcO.gz

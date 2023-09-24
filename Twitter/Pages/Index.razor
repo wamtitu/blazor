@@ -1,31 +1,40 @@
 ﻿@page "/"
-@inject ICommentInterface commentService
 @inject IPostInterface postService
+@inject ICommentInterface commentService
 
 
-<div>
-    @foreach(var post in posts){
-        <div>
-            <p>@post.title</p>
-            <p>@post.body</p>
-        </div>
-    }
-    @* @foreach(var comment in comments){
+<div class="row">
+    <div class="col-7">       
+        @foreach(var post in posts){
+            <div>
+                <p>@post.title</p>
+                <p>@post.body</p>
+                <button @onclick="@(()=>GetComments(post.id))">comments</button>
+            </div>
+        }
+    </div>
+    <div class="col-5">
+         @foreach(var comment in postComments){
         <div>
             <p>@comment.email</p>
             <p>@comment.body</p>
             <p>@comment.name</p>
         </div>
-    } *@
+    }
+    </div>
 </div>
 
 
 @code{
-    private List<Comment> comments = new List<Comment>();
     private List<Post> posts = new List<Post>();
+    private List<Comment> postComments = new List<Comment>();
 
     protected override async Task OnInitializedAsync (){
-        @* comments =await commentService.GetCommentsAsync(); *@
         posts =await postService.GetPostAsync();
     }
+
+    private async Task GetComments(int id){
+        var comments =await commentService.GetCommentsAsync();
+        postComments = comments.Where(c=>c.postId == id).ToList();
+    } 
 }

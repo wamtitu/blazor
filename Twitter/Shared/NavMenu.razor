@@ -1,3 +1,28 @@
-﻿<div>
+﻿@inject IUserInterface userService
+<div>
     <h1>Twirrer</h1>
+    <select  @onchange="HandleSelection" >
+    <option value="">"Select a user"</option>
+    @foreach (var user in users)
+    {
+        <option value="@user.id">@user.name</option>
+    }
+</select>
 </div>
+
+@code{
+
+    private List<User> users = new List<User>();
+    
+    private string selectedOption = "";
+    private int userId =0;
+
+    private void HandleSelection(ChangeEventArgs e){
+        selectedOption = e.Value.ToString();
+        Console.WriteLine(selectedOption);
+    }
+
+    protected override async Task OnInitializedAsync(){
+        users = await userService.GetUsersAsync();
+    }
+}

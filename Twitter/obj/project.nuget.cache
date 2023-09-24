@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "upDV43bKv8D6wvFYM/v9rarka40zBFw5Es+ud8Hi2etUBUi+TqlV8JBp6eWa2lJppPXq0wf9+YtIJcTtM0fgYw==",
+  "dgSpecHash": "prPiCVdedKSh4ZM6ExT2SEHiGIuk/a5AlP9R3vIpIKTtU1zSRsOPwSWgVLxMhl8bIwsevEB75IGRDwndeQ67Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\desktop\\blazor\\Twitter\\Twitter.csproj",
+  "projectFilePath": "C:\\Users\\HP\\desktop\\Blazor\\Twitter\\Twitter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.11\\microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.11\\microsoft.aspnetcore.components.7.0.11.nupkg.sha512",

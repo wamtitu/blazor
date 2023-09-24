@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\desktop\\blazor\\Library\\Library.csproj": {}
+    "c:\\Users\\HP\\desktop\\Blazor\\Library\\Library.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\desktop\\blazor\\Library\\Library.csproj": {
+    "c:\\Users\\HP\\desktop\\Blazor\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\desktop\\blazor\\Library\\Library.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\desktop\\Blazor\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "c:\\Users\\HP\\desktop\\blazor\\Library\\Library.csproj",
+        "projectPath": "c:\\Users\\HP\\desktop\\Blazor\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\desktop\\blazor\\Library\\obj\\",
+        "outputPath": "c:\\Users\\HP\\desktop\\Blazor\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

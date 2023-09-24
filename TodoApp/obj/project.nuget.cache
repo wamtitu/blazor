@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pNqr4BgV/4Z/JeWB3Qb6neyawEj1w+IEfF58AS3jSo+axiFn1j2fXwADh2xu8PsiSO2d7Of2LJaXRugs2FMJzQ==",
+  "dgSpecHash": "JPMfOMZWtAXWZ7v5s4GEHAYV04osgUb7gTTkJJ3X+yyOFM4VyZniIan+ZBxvilEm6QTOFCtf3x5+iJvl+XGr5Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\HP\\desktop\\blazor\\TodoApp\\TodoApp.csproj",
+  "projectFilePath": "c:\\Users\\HP\\desktop\\Blazor\\TodoApp\\TodoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.10\\microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
