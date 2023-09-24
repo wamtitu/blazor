@@ -48,7 +48,7 @@
         }
       },
       {
-        "HashCode": -66609214,
+        "HashCode": 190503809,
         "Kind": "Components.Component",
         "Name": "Twitter.Pages.Home",
         "AssemblyName": "Twitter",
@@ -59,6 +59,18 @@
             "TagName": "Home"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "user",
+            "TypeName": "System.String",
+            "DisplayName": "string Twitter.Pages.Home.user",
+            "Metadata": {
+              "Common.PropertyName": "user",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
         "Metadata": {
           "Common.TypeName": "Twitter.Pages.Home",
           "Common.TypeNameIdentifier": "Home",
@@ -67,7 +79,7 @@
         }
       },
       {
-        "HashCode": -362130580,
+        "HashCode": -438145158,
         "Kind": "Components.Component",
         "Name": "Twitter.Pages.Home",
         "AssemblyName": "Twitter",
@@ -76,6 +88,18 @@
         "TagMatchingRules": [
           {
             "TagName": "Twitter.Pages.Home"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "user",
+            "TypeName": "System.String",
+            "DisplayName": "string Twitter.Pages.Home.user",
+            "Metadata": {
+              "Common.PropertyName": "user",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {

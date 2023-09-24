@@ -1,4 +1,5 @@
 ﻿@inject IUserInterface userService
+@inject NavigationManager navigationManager
 <div>
     <h1>Twirrer</h1>
     <select  @onchange="HandleSelection" >
@@ -20,6 +21,7 @@
     private void HandleSelection(ChangeEventArgs e){
         selectedOption = e.Value.ToString();
         Console.WriteLine(selectedOption);
+        navigationManager.NavigateTo($"/user/{selectedOption}");
     }
 
     protected override async Task OnInitializedAsync(){

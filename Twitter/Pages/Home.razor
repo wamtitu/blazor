@@ -1,4 +1,5 @@
 ﻿@page "/"
+@page "/user/{user}"
 @inject IPostInterface postService
 @inject ICommentInterface commentService
 
@@ -10,24 +11,28 @@
                 <div class="avater1">
                 <div class="profile"></div>
             </div>
+                <p>@post.userId</p>
                 <p>@post.title</p>
                 <p>@post.body</p>
                 <button @onclick="@(()=>GetComments(post.id))">comments</button>
             </div>
-            <div class=" comments">
-                @foreach(var comment in postComments){
-                <div class="comment">
-                    <div class="avater1">
-                        <div class="profile"></div>
-                        <p>@comment.email</p>
+            @if(selectedPost == post.id){
+
+                <div class=" comments">
+                    @foreach(var comment in postComments){
+                    <div class="comment">
+                        <div class="avater1">
+                            <div class="profile"></div>
+                            <p>@comment.email</p>
+                        </div>
+                        <div class="content">
+                            <p>@comment.name</p>
+                            <p>@comment.body</p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <p>@comment.name</p>
-                        <p>@comment.body</p>
-                    </div>
+                }
                 </div>
             }
-            </div>
         }
     </div>
     @* <div class=" comments col-5">
@@ -49,8 +54,12 @@
 
 
 @code{
-    private List<Post> posts = new List<Post>();
+    private IEnumerable<Post> posts = new List<Post>();
     private List<Comment> postComments = new List<Comment>();
+    
+    private int selectedPost = 0;
+    [Parameter]
+    public string user {get; set;}
 
     protected override async Task OnInitializedAsync (){
         posts =await postService.GetPostAsync();
@@ -59,5 +68,20 @@
     private async Task GetComments(int id){
         var comments =await commentService.GetCommentsAsync();
         postComments = comments.Where(c=>c.postId == id).ToList();
+        selectedPost = id;
     } 
+
+    protected override void OnParametersSet(){
+        var filters = new List<Func<Post, bool>>();
+        if(user is not null){
+            var userid = int.Parse(user);
+            filters.Add(x=>x.userId == userid);
+        }
+        if (filters.Any())
+        {
+            posts= posts.Where(post => filters.All(filter => filter(post)));
+        }else{
+            posts = posts;
+        }
+    }
 }
