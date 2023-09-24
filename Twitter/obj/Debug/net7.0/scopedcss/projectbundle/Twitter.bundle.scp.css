@@ -1,3 +1,41 @@
+/* /Pages/Home.razor.rz.scp.css */
+.profile[b-iyv6x75s20]{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(https://images.pexels.com/photos/18218828/pexels-photo-18218828/free-photo-of-man-in-a-cute-helmet-on-a-motorbike.png?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+.avater1[b-iyv6x75s20]{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: blue;
+}
+.comments[b-iyv6x75s20]{
+    margin:auto 10%;
+    background: rgb(77, 76, 76);
+    color: white;
+    width: 75%;
+}
+.comment[b-iyv6x75s20]{
+    border-bottom: 1px solid azure;
+    margin-left: 5%;
+    
+}
+.posts[b-iyv6x75s20]{
+    border: 1px solid black;
+    border-radius:4px ;
+    background: black;
+    color: white;
+    margin: auto 15%;
+
+}
+.post[b-iyv6x75s20]{
+    margin: 2% 5%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 /* .page {
     position: relative;

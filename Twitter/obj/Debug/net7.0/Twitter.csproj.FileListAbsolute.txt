@@ -830,3 +830,4 @@ C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\Twitter.pdb
 C:\Users\HP\desktop\blazor\Twitter\obj\Debug\net7.0\ref\Twitter.dll
 C:\Users\HP\desktop\Blazor\Twitter\obj\Debug\net7.0\build-gz\8HjrHkyZ.gz
 C:\Users\HP\desktop\Blazor\Twitter\obj\Debug\net7.0\build-gz\veW7iNcO.gz
+C:\Users\HP\desktop\Blazor\Twitter\obj\Debug\net7.0\scopedcss\Pages\Home.razor.rz.scp.css

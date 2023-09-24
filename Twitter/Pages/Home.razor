@@ -1,0 +1,63 @@
+﻿@page "/"
+@inject IPostInterface postService
+@inject ICommentInterface commentService
+
+
+<div class="row ">
+    <div class="col-8 posts">       
+        @foreach(var post in posts){
+            <div class="post">
+                <div class="avater1">
+                <div class="profile"></div>
+            </div>
+                <p>@post.title</p>
+                <p>@post.body</p>
+                <button @onclick="@(()=>GetComments(post.id))">comments</button>
+            </div>
+            <div class=" comments">
+                @foreach(var comment in postComments){
+                <div class="comment">
+                    <div class="avater1">
+                        <div class="profile"></div>
+                        <p>@comment.email</p>
+                    </div>
+                    <div class="content">
+                        <p>@comment.name</p>
+                        <p>@comment.body</p>
+                    </div>
+                </div>
+            }
+            </div>
+        }
+    </div>
+    @* <div class=" comments col-5">
+        <h1>comments</h1>
+         @foreach(var comment in postComments){
+        <div class="comment">
+            <div class="avater1">
+                <div class="profile"></div>
+                <p>@comment.email</p>
+            </div>
+            <div class="content">
+                <p>@comment.name</p>
+                <p>@comment.body</p>
+            </div>
+        </div>
+    }
+    </div> *@
+</div>
+
+
+@code{
+    private List<Post> posts = new List<Post>();
+    private List<Comment> postComments = new List<Comment>();
+
+    protected override async Task OnInitializedAsync (){
+        posts =await postService.GetPostAsync();
+    }
+
+    private async Task GetComments(int id){
+        var comments =await commentService.GetCommentsAsync();
+        postComments = comments.Where(c=>c.postId == id).ToList();
+    } 
+}
